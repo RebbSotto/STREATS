@@ -20,62 +20,159 @@
 
             <ImageView
                 android:id="@+id/imageView"
-                android:layout_width="match_parent"
-                android:layout_height="308dp"
+                android:layout_width="225dp"
+                android:layout_height="225dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginTop="81dp"
-                app:srcCompat="@drawable/shakeys" />
+                android:layout_marginLeft="68dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/shakeys1" />
 
-            <TextView
-                android:id="@+id/textView2"
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="107dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/holo_green_dark"
+                android:fontFamily="@font/archivo_black"
+                android:text="@string/menu"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:text="menu" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="107dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/holo_green_dark"
+                android:fontFamily="@font/archivo_black"
+                android:text="@string/check"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:text="@string/check" />
+
+            <RatingBar
+                android:id="@+id/ratingBar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/imageView"
-                android:layout_centerHorizontal="true"
-                android:text="★★★★☆\nEspaña Blvd., Sampaloc, Manila Operating hours: 24hrs Price range: 35 – 1000\n"
-                android:textAlignment="center"
-                android:textAllCaps="true"
-                android:textColor="@android:color/background_dark"
-                android:textStyle="bold" />
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="1dp"
+                android:numStars="5"
+                android:paddingBottom="20dp"
+                android:paddingLeft="50dp"
+                android:paddingRight="65dp"
+                android:paddingTop="5dp"
+                android:stepSize=".5" />
 
             <ImageView
                 android:id="@+id/imageView3"
-                android:layout_width="match_parent"
-                android:layout_height="300dp"
-                app:srcCompat="@drawable/amo" />
+                android:layout_width="225dp"
+                android:layout_height="225dp"
+                android:layout_marginLeft="68dp"
+                app:srcCompat="@drawable/amo1" />
 
-            <TextView
-                android:id="@+id/textView4"
+            <Button
+                android:id="@+id/button"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="107dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/holo_green_dark"
+                android:fontFamily="@font/archivo_black"
+                android:text="@string/menu"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:text="menu" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="107dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/holo_green_dark"
+                android:fontFamily="@font/archivo_black"
+                android:text="@string/check"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:text="@string/check" />
+
+            <RatingBar
+                android:id="@+id/ratingBar2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/imageView"
-                android:layout_centerHorizontal="true"
-                android:text="★★★★☆\nEspaña Blvd., Sampaloc, Manila Operating hours: 9am to 9pm Price range: 55 – 160\n"
-                android:textAlignment="center"
-                android:textAllCaps="true"
-                android:textColor="@android:color/background_dark"
-                android:textStyle="bold" />
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="1dp"
+                android:numStars="5"
+                android:paddingBottom="20dp"
+                android:paddingLeft="50dp"
+                android:paddingRight="65dp"
+                android:paddingTop="5dp"
+                android:stepSize=".5" />
 
             <ImageView
                 android:id="@+id/imageView2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="225dp"
+                android:layout_height="225dp"
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
-                app:srcCompat="@drawable/jollibee" />
+                android:layout_marginLeft="68dp"
+                app:srcCompat="@drawable/jolli" />
 
-            <TextView
-                android:id="@+id/textView3"
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="107dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/holo_green_dark"
+                android:fontFamily="@font/archivo_black"
+                android:text="@string/menu"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:text="menu" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="107dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/holo_green_dark"
+                android:fontFamily="@font/archivo_black"
+                android:text="@string/check"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:text="@string/check" />
+
+            <RatingBar
+                android:id="@+id/ratingBar3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/imageView"
-                android:layout_centerHorizontal="true"
-                android:text="★★★★☆\nEspaña Blvd., Sampaloc, Manila Operating hours: 24hrs Price range: 35 – 600\n"
-                android:textAlignment="center"
-                android:textAllCaps="true"
-                android:textColor="@android:color/background_dark"
-                android:textStyle="bold" />
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="1dp"
+                android:numStars="5"
+                android:paddingBottom="20dp"
+                android:paddingLeft="50dp"
+                android:paddingRight="65dp"
+                android:paddingTop="5dp"
+                android:stepSize=".5" />
+
         </LinearLayout>
     </ScrollView>
 

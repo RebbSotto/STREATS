@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">STREATS</string>
+    <string name="shakeys">shakeys</string>
+    <string name="amo">amo</string>
+    <string name="jolli">jolli</string>
+    <string name="check">Check</string>
+    <string name="menu">menu</string>
 </resources>

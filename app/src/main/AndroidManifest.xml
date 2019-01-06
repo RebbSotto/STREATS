@@ -24,7 +24,11 @@
         <activity android:name=".Espana" />
         <activity android:name=".Lacson" />
         <activity android:name=".Noval" />
-        <activity android:name=".Dapitan"></activity>
+        <activity android:name=".Dapitan" />
+        <activity android:name=".espanaCheck" />
+        <activity android:name=".dapitanCheck" />
+        <activity android:name=".novalCheck" />
+        <activity android:name=".lacsonCheck"></activity>
     </application>
 
 </manifest>
